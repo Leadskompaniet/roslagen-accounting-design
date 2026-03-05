@@ -1,30 +1,36 @@
 import { BookOpen, FileText, Calculator, Users, TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
     icon: BookOpen,
     title: "Löpande bokföring",
     description: "Vi tar hand om den dagliga bokföringen så att du kan fokusera på din verksamhet. Alltid uppdaterat och korrekt.",
+    href: "/tjanster/lopande-bokforing",
   },
   {
     icon: FileText,
     title: "Bokslut & årsredovisning",
     description: "Professionella bokslut och årsredovisningar som ger dig tydlig insikt i företagets ekonomi.",
+    href: "/tjanster/bokslut-arsredovisning",
   },
   {
     icon: Calculator,
     title: "Deklaration",
     description: "Vi säkerställer att din deklaration blir korrekt och inlämnad i tid – utan onödig stress.",
+    href: "/tjanster/deklaration",
   },
   {
     icon: Users,
     title: "Lönehantering",
     description: "Smidig lönehantering med alla arbetsgivaravgifter, skatteberäkningar och rapporteringar.",
+    href: "/tjanster/lonehantering",
   },
   {
     icon: TrendingUp,
     title: "Rådgivning",
     description: "Ekonomisk rådgivning anpassad för småföretagare. Vi hjälper dig fatta rätt beslut för tillväxt.",
+    href: "/tjanster/radgivning",
   },
 ];
 
@@ -54,9 +60,9 @@ const Services = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {service.description}
               </p>
-              <button className="mt-5 text-sm font-medium text-primary hover:underline underline-offset-4 transition-all">
+              <Link to={service.href} className="mt-5 inline-block text-sm font-medium text-primary hover:underline underline-offset-4 transition-all">
                 Läs mer →
-              </button>
+              </Link>
             </div>
           ))}
         </div>

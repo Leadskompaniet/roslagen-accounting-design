@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-foreground text-primary-foreground py-12 px-6 md:px-12">
@@ -16,11 +18,11 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-base font-semibold mb-3">Tjänster</h4>
             <ul className="space-y-2 text-sm opacity-60">
-              <li>Löpande bokföring</li>
-              <li>Bokslut & årsredovisning</li>
-              <li>Deklaration</li>
-              <li>Lönehantering</li>
-              <li>Rådgivning</li>
+              <li><Link to="/tjanster/lopande-bokforing" className="hover:opacity-100 transition-opacity">Löpande bokföring</Link></li>
+              <li><Link to="/tjanster/bokslut-arsredovisning" className="hover:opacity-100 transition-opacity">Bokslut & årsredovisning</Link></li>
+              <li><Link to="/tjanster/deklaration" className="hover:opacity-100 transition-opacity">Deklaration</Link></li>
+              <li><Link to="/tjanster/lonehantering" className="hover:opacity-100 transition-opacity">Lönehantering</Link></li>
+              <li><Link to="/tjanster/radgivning" className="hover:opacity-100 transition-opacity">Rådgivning</Link></li>
             </ul>
           </div>
 
