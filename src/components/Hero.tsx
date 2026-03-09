@@ -22,7 +22,7 @@ const Hero = () => {
         >
           Trygg bokföring
           <br />
-          <span className="text-primary">i Roslagen</span>
+          <span className="text-primary">i Stockholm</span>
         </h1>
         <p
           className="mt-6 text-lg md:text-xl text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed opacity-0 animate-fade-up"
