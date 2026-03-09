@@ -249,7 +249,7 @@ const ServicePageTemplate = ({
                   </h3>
                   <div className="flex items-center gap-3 mb-3">
                     <Phone className="w-5 h-5 text-primary" />
-                    <span className="text-foreground">0176-123 45</span>
+                    <span className="text-foreground">070-053 18 00</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-primary" />
