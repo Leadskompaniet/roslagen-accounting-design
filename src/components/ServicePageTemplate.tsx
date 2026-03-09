@@ -253,7 +253,7 @@ const ServicePageTemplate = ({
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-primary" />
-                    <span className="text-foregroundekonomi@roslagskompanietng.se</span>
+                    <span className="text-foreground">ekonomi@roslagskompaniet.se</span>
                   </div>
                   <p className="text-muted-foreground text-sm mt-4">
                     Mån–Fre 08:00–17:00

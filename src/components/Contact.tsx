@@ -113,7 +113,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-display text-lg font-semibold text-foreground">E-post</h3>
-                <p className="text-muted-foregroundekonomi@roslagskompanietng.se</p>
+                <p className="text-muted-foreground">ekonomi@roslagskompaniet.se</p>
               </div>
             </div>
 
