@@ -47,8 +47,13 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/40">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20">
-        <Link to="/" className="font-display text-xl md:text-2xl font-semibold text-foreground tracking-tight">
-          Roslags<span className="text-primary">kompaniet</span>
+        <Link to="/" className="flex flex-col">
+          <span className="font-display text-xl md:text-2xl font-semibold text-foreground tracking-tight">
+            Roslags<span className="text-primary">kompaniet</span>
+          </span>
+          <span className="text-[10px] md:text-xs text-muted-foreground tracking-wide -mt-0.5">
+            Trygg bokföring – hela vägen från offert till bokslut
+          </span>
         </Link>
 
         {/* Desktop nav */}
