@@ -28,8 +28,8 @@ const Hero = () => {
           className="mt-6 text-lg md:text-xl text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed opacity-0 animate-fade-up"
           style={{ animationDelay: "0.5s" }}
         >
-          Personlig redovisning med digital kompetens. Vi hjälper småföretagare i
-          Roslagen att fokusera på det som verkligen betyder något&nbsp;–&nbsp;din verksamhet.
+           Personlig redovisning med digital kompetens och 20 års erfarenhet. Vi hjälper småföretagare i
+           Roslagen att fokusera på det som verkligen betyder något&nbsp;&ndash;&nbsp;din verksamhet.
         </p>
         <div
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-up"

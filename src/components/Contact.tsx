@@ -124,7 +124,7 @@ const Contact = () => {
               <div>
                 <h3 className="font-display text-lg font-semibold text-foreground">Besöksadress</h3>
                 <p className="text-muted-foreground">Sturegatan 20c, Sundbyberg</p>
-                <p className="text-muted-foreground text-sm">Nära Roslagen – nära dig</p>
+                <p className="text-muted-foreground text-sm">Nära Roslagen &ndash; nära dig</p>
               </div>
             </div>
           </div>
