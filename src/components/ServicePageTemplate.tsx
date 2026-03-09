@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Quote, Phone, Mail, CheckCircle } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -38,11 +39,24 @@ const ServicePageTemplate = ({
     message: "",
   });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert("Tack för ditt meddelande! Vi återkommer så snart vi kan.");
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    setIsSubmitting(true);
+    try {
+      const { error } = await supabase.functions.invoke('send-contact-email', {
+        body: formData,
+      });
+      if (error) throw error;
+      alert("Tack för ditt meddelande! Vi återkommer så snart vi kan.");
+      setFormData({ name: "", email: "", phone: "", message: "" });
+    } catch (err) {
+      console.error(err);
+      alert("Något gick fel. Försök igen eller kontakta oss direkt.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -236,9 +250,10 @@ const ServicePageTemplate = ({
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-primary text-primary-foreground py-3.5 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity shadow-soft"
+                  disabled={isSubmitting}
+                  className="w-full bg-primary text-primary-foreground py-3.5 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity shadow-soft disabled:opacity-50"
                 >
-                  Skicka förfrågan
+                  {isSubmitting ? "Skickar..." : "Skicka förfrågan"}
                 </button>
               </form>
 
