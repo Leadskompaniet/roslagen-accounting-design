@@ -29,9 +29,9 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-base font-semibold mb-3">Kontakt</h4>
             <ul className="space-y-2 text-sm opacity-60">
-              <li>0176-123 45</li>
-              <li>info@roslagenredovisning.se</li>
-              <li>Hamnvägen 12, Norrtälje</li>
+              <li>070-053 18 00</li>
+              <li>ekonomi@roslagskompaniet.se</li>
+              <li>Sturegatan 20c, Sundbyberg</li>
             </ul>
           </div>
         </div>
