@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <p className="font-display text-xl font-semibold">
-              Roslagskompaniet
+              Roslagen<span className="opacity-60">Redovisning</span>
             </p>
             <p className="mt-3 text-sm opacity-60 leading-relaxed">
               Din lokala redovisningsbyrå i Roslagen. Trygg, personlig och digital bokföring
@@ -29,15 +29,15 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-base font-semibold mb-3">Kontakt</h4>
             <ul className="space-y-2 text-sm opacity-60">
-              <li>070-053 18 00</li>
-              <li>ekonomi@roslagskompaniet.se</li>
-              <li>Sturegatan 20c, Sundbyberg</li>
+              <li>0176-123 45</li>
+              <li>info@roslagenredovisning.se</li>
+              <li>Hamnvägen 12, Norrtälje</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-10 pt-6 border-t border-primary-foreground/10 text-center text-xs opacity-40">
-          © {new Date().getFullYear()} Roslagskompaniet. Alla rättigheter förbehållna.
+          © {new Date().getFullYear()} Roslagen Redovisning. Alla rättigheter förbehållna.
         </div>
       </div>
     </footer>
