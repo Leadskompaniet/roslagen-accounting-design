@@ -102,9 +102,10 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-primary text-primary-foreground py-3.5 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity shadow-soft"
+              disabled={isSubmitting}
+              className="w-full bg-primary text-primary-foreground py-3.5 rounded-lg text-sm font-medium hover:opacity-90 transition-opacity shadow-soft disabled:opacity-50"
             >
-              Skicka meddelande
+              {isSubmitting ? "Skickar..." : "Skicka meddelande"}
             </button>
           </form>
 
