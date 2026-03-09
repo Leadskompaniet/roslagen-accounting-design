@@ -10,11 +10,24 @@ const Contact = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Placeholder – integration later
-    alert("Tack för ditt meddelande! Vi återkommer så snart vi kan.");
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    setIsSubmitting(true);
+    try {
+      const { error } = await supabase.functions.invoke('send-contact-email', {
+        body: formData,
+      });
+      if (error) throw error;
+      alert("Tack för ditt meddelande! Vi återkommer så snart vi kan.");
+      setFormData({ name: "", email: "", phone: "", message: "" });
+    } catch (err) {
+      console.error(err);
+      alert("Något gick fel. Försök igen eller kontakta oss direkt.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
