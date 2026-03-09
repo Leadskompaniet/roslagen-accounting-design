@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Låt oss ta hand om din bokföring</h2>
           <p className="section-subtitle mx-auto mt-4">
-            Boka en kostnadsfri konsultation eller ställ en fråga – vi återkommer inom 24 timmar.
+            Boka en kostnadsfri konsultation eller ställ en fråga &ndash; vi återkommer inom 24 timmar.
           </p>
         </div>
 
