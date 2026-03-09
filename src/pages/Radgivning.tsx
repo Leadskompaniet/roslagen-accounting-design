@@ -24,7 +24,7 @@ Vi tror på långsiktiga relationer och proaktiv rådgivning. Istället för att
       { step: "Löpande stöd", description: "Vi följer upp regelbundet och justerar planen efter hur din verksamhet utvecklas." },
     ]}
     testimonial={{
-      quote: "Tack vare rådgivningen från Roslagen Redovisning vågade jag ta steget att anställa min första medarbetare. De hjälpte mig räkna på allt och jag kände mig trygg i beslutet.",
+      quote: "Tack vare rådgivningen från Roslagskompaniet vågade jag ta steget att anställa min första medarbetare. De hjälpte mig räkna på allt och jag kände mig trygg i beslutet.",
       name: "Sara Nilsson",
       title: "Frisör & företagare, Norrtälje",
     }}

@@ -24,7 +24,7 @@ Med oss som partner kan du känna dig trygg. Vi bevakar deadlines, hanterar even
       { step: "Inlämning & uppföljning", description: "Vi lämnar in deklarationen och bevakar att allt går igenom hos Skatteverket." },
     ]}
     testimonial={{
-      quote: "Jag brukade stressa varje vår inför deklarationen. Nu vet jag att Roslagen Redovisning har koll på allt – jag behöver bara skriva under. Så skönt!",
+      quote: "Jag brukade stressa varje vår inför deklarationen. Nu vet jag att Roslagskompaniet har koll på allt – jag behöver bara skriva under. Så skönt!",
       name: "Anna Bergqvist",
       title: "Konsult, Vaxholm",
     }}
