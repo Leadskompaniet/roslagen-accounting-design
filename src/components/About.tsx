@@ -1,3 +1,5 @@
+import therese from "@/assets/therese.jpg";
+
 const About = () => {
   return (
     <section id="om-oss" className="section-padding">

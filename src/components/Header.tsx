@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const serviceLinks = [
   { label: "Löpande bokföring", href: "/tjanster/lopande-bokforing" },

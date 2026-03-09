@@ -123,8 +123,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-display text-lg font-semibold text-foreground">Besöksadress</h3>
-                <p className="text-muted-foreground">Hamnvägen 12, 761 30 Norrtälje</p>
-                <p className="text-muted-foreground text-sm">I hjärtat av Roslagen</p>
+                <p className="text-muted-foreground">Sturegatan 20c, Sundbyberg</p>
+                <p className="text-muted-foreground text-sm">Nära Roslagen – nära dig</p>
               </div>
             </div>
           </div>
