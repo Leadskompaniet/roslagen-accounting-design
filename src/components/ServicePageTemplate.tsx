@@ -39,11 +39,24 @@ const ServicePageTemplate = ({
     message: "",
   });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert("Tack för ditt meddelande! Vi återkommer så snart vi kan.");
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    setIsSubmitting(true);
+    try {
+      const { error } = await supabase.functions.invoke('send-contact-email', {
+        body: formData,
+      });
+      if (error) throw error;
+      alert("Tack för ditt meddelande! Vi återkommer så snart vi kan.");
+      setFormData({ name: "", email: "", phone: "", message: "" });
+    } catch (err) {
+      console.error(err);
+      alert("Något gick fel. Försök igen eller kontakta oss direkt.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
