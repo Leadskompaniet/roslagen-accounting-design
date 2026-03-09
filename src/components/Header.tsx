@@ -51,7 +51,7 @@ const Header = () => {
           <span className="font-display text-2xl md:text-3xl font-semibold text-foreground tracking-tight">
             Roslags<span className="text-primary">kompaniet</span>
           </span>
-          <span className="text-[9px] md:text-[11px] text-muted-foreground tracking-[0.15em] -mt-0.5">
+          <span className="text-[7px] md:text-[8.5px] text-muted-foreground tracking-[0.22em] uppercase -mt-0.5">
             Hela vägen från offert till bokslut
           </span>
         </Link>
