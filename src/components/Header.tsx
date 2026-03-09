@@ -48,10 +48,10 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/40">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex flex-col">
-          <span className="font-display text-xl md:text-2xl font-semibold text-foreground tracking-tight">
+          <span className="font-display text-2xl md:text-3xl font-semibold text-foreground tracking-tight">
             Roslags<span className="text-primary">kompaniet</span>
           </span>
-          <span className="text-[10px] md:text-xs text-muted-foreground tracking-wide -mt-0.5">
+          <span className="text-[9px] md:text-[11px] text-muted-foreground tracking-[0.15em] -mt-0.5">
             Hela vägen från offert till bokslut
           </span>
         </Link>
