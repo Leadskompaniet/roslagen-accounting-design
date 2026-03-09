@@ -52,7 +52,7 @@ const Header = () => {
             Roslags<span className="text-primary">kompaniet</span>
           </span>
           <span className="text-[10px] md:text-xs text-muted-foreground tracking-wide -mt-0.5">
-            Trygg bokföring – hela vägen från offert till bokslut
+            Hela vägen från offert till bokslut
           </span>
         </Link>
 
