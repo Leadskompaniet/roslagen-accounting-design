@@ -24,7 +24,7 @@ Genom att använda moderna molnbaserade system ger vi dig full insyn i din ekono
       { step: "Uppföljning", description: "Du får regelbundna rapporter och avstämningar. Vi finns alltid tillgängliga för frågor." },
     ]}
     testimonial={{
-      quote: "Sedan vi anlitade Roslagen Redovisning för vår löpande bokföring har jag äntligen tid att fokusera på mina kunder istället för kvitton. De är noggranna, snabba och alltid tillgängliga.",
+      quote: "Sedan vi anlitade Roslagskompaniet för vår löpande bokföring har jag äntligen tid att fokusera på mina kunder istället för kvitton. De är noggranna, snabba och alltid tillgängliga.",
       name: "Maria Lindström",
       title: "Ägare, Lindströms Café, Norrtälje",
     }}

@@ -3,7 +3,7 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "Roslagen Redovisning har varit en trygg partner i över fem år. De förstår min verksamhet och ger alltid kloka råd. Kan inte tänka mig en bättre byrå.",
+      "Roslagskompaniet har varit en trygg partner i över fem år. De förstår min verksamhet och ger alltid kloka råd. Kan inte tänka mig en bättre byrå.",
     name: "Maria Lindström",
     title: "Ägare, Lindströms Café, Norrtälje",
   },

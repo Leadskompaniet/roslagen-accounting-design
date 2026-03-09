@@ -24,7 +24,7 @@ Oavsett om du har en eller tjugo anställda erbjuder vi en pålitlig lönetjäns
       { step: "Årsavslut", description: "Vi sammanställer årets löner, hanterar kontrolluppgifter och förbereder för deklaration." },
     ]}
     testimonial={{
-      quote: "Vi har fem anställda och lönehanteringen brukade ta mig en hel dag varje månad. Nu sköter Roslagen Redovisning allt – perfekt och utan krångel.",
+      quote: "Vi har fem anställda och lönehanteringen brukade ta mig en hel dag varje månad. Nu sköter Roslagskompaniet allt – perfekt och utan krångel.",
       name: "Per Ekström",
       title: "Ägare, Ekströms Bygg, Rimbo",
     }}

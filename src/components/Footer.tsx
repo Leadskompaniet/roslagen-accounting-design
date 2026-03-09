@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 pt-6 border-t border-primary-foreground/10 text-center text-xs opacity-40">
-          © {new Date().getFullYear()} Roslagen Redovisning. Alla rättigheter förbehållna.
+          © {new Date().getFullYear()} Roslagskompaniet. Alla rättigheter förbehållna.
         </div>
       </div>
     </footer>

@@ -24,7 +24,7 @@ Oavsett om du driver enskild firma eller aktiebolag har vi erfarenheten som krä
       { step: "Genomgång & inlämning", description: "Vi går igenom resultatet med dig, besvarar frågor och sköter inlämning till myndigheterna." },
     ]}
     testimonial={{
-      quote: "Det bästa med Roslagen Redovisning är att de alltid tar sig tid att förklara bokslutet. Jag förstår äntligen mina siffror och kan planera framåt med trygghet.",
+      quote: "Det bästa med Roslagskompaniet är att de alltid tar sig tid att förklara bokslutet. Jag förstår äntligen mina siffror och kan planera framåt med trygghet.",
       name: "Erik Johansson",
       title: "Snickare & företagare, Östhammar",
     }}
