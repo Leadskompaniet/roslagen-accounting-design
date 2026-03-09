@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Låt oss ta hand om din bokföring</h2>
           <p className="section-subtitle mx-auto mt-4">
-            Boka en kostnadsfri konsultation eller ställ en fråga – vi återkommer inom 24 timmar.
+            Boka en kostnadsfri konsultation eller ställ en fråga &ndash; vi återkommer inom 24 timmar.
           </p>
         </div>
 
@@ -102,8 +102,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-display text-lg font-semibold text-foreground">Telefon</h3>
-                <p className="text-muted-foreground">0176-123 45</p>
-                <p className="text-muted-foreground text-sm">Mån–Fre 08:00–17:00</p>
+                <p className="text-muted-foreground">070-053 18 00</p>
+                <p className="text-muted-foreground text-sm">{"Mån\u2013Fre 08:00\u201317:00"}</p>
               </div>
             </div>
 
@@ -113,7 +113,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-display text-lg font-semibold text-foreground">E-post</h3>
-                <p className="text-muted-foreground">info@roslagenredovisning.se</p>
+                <p className="text-muted-foreground">ekonomi@roslagskompaniet.se</p>
               </div>
             </div>
 
@@ -123,8 +123,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-display text-lg font-semibold text-foreground">Besöksadress</h3>
-                <p className="text-muted-foreground">Hamnvägen 12, 761 30 Norrtälje</p>
-                <p className="text-muted-foreground text-sm">I hjärtat av Roslagen</p>
+                <p className="text-muted-foreground">Sturegatan 20c, Sundbyberg</p>
+                <p className="text-muted-foreground text-sm">Nära Roslagen &ndash; nära dig</p>
               </div>
             </div>
           </div>

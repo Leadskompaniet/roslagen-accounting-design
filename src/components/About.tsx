@@ -1,3 +1,5 @@
+import therese from "@/assets/therese.jpg";
+
 const About = () => {
   return (
     <section id="om-oss" className="section-padding">
@@ -26,16 +28,16 @@ const About = () => {
 
           {/* Visual element */}
           <div className="relative">
-            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-sea-light to-sand overflow-hidden shadow-soft">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <p className="font-display text-6xl md:text-7xl font-bold text-primary/20">15+</p>
-                  <p className="font-display text-xl text-foreground mt-2">års erfarenhet</p>
-                  <div className="w-16 h-px bg-primary/30 mx-auto mt-4" />
-                  <p className="text-muted-foreground text-sm mt-4">
-                    Hundratals nöjda kunder i Roslagen och Norrtälje
-                  </p>
-                </div>
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-soft">
+              <img
+                src={therese}
+                alt="Therese Lindén – Roslagskompaniet"
+                className="w-full h-full object-cover object-top"
+                loading="lazy"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-foreground/80 to-transparent p-6">
+                <p className="font-display text-lg font-semibold text-primary-foreground">Therese Lindén</p>
+                <p className="text-primary-foreground/70 text-sm">20 års erfarenhet inom redovisning</p>
               </div>
             </div>
           </div>
