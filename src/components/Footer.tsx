@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <p className="font-display text-xl font-semibold">
-              Roslagen<span className="opacity-60">Redovisning</span>
+              Roslags<span className="opacity-60">kompaniet</span>
             </p>
             <p className="mt-3 text-sm opacity-60 leading-relaxed">
               Din lokala redovisningsbyrå i Roslagen. Trygg, personlig och digital bokföring
